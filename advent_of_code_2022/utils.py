@@ -1,7 +1,7 @@
 def line_iterator(file_name):
     with open(file_name) as f:
         for line in f:
-            yield line.strip()
+            yield line.rstrip()
 
 
 def read_all(file_name):
