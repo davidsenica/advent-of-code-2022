@@ -1,3 +1,9 @@
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
 def line_iterator(file_name):
     with open(file_name) as f:
         for line in f:
