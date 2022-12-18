@@ -14,6 +14,9 @@ from advent_of_code_2022.day_12 import main as day_12
 from advent_of_code_2022.day_13 import main as day_13
 from advent_of_code_2022.day_14 import main as day_14
 from advent_of_code_2022.day_15 import main as day_15
+from advent_of_code_2022.day_16 import main as day_16
+from advent_of_code_2022.day_17 import main as day_17
+from advent_of_code_2022.day_18 import main as day_18
 
 
 if __name__ == '__main__':
@@ -48,3 +51,9 @@ if __name__ == '__main__':
         day_14()
     elif day == 'day15':
         day_15()
+    elif day == 'day16':
+        day_16()
+    elif day == 'day17':
+        day_17()
+    elif day == 'day18':
+        day_18()
