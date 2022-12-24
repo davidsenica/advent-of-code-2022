@@ -18,6 +18,11 @@ from advent_of_code_2022.day_16 import main as day_16
 from advent_of_code_2022.day_17 import main as day_17
 from advent_of_code_2022.day_18 import main as day_18
 from advent_of_code_2022.day_19 import main as day_19
+from advent_of_code_2022.day_20 import main as day_20
+from advent_of_code_2022.day_21 import main as day_21
+from advent_of_code_2022.day_22 import main as day_22
+from advent_of_code_2022.day_23 import main as day_23
+from advent_of_code_2022.day_24 import main as day_24
 
 
 if __name__ == '__main__':
@@ -60,3 +65,13 @@ if __name__ == '__main__':
         day_18()
     elif day == 'day19':
         day_19()
+    elif day == 'day20':
+        day_20()
+    elif day == 'day21':
+        day_21()
+    elif day == 'day22':
+        day_22()
+    elif day == 'day23':
+        day_23()
+    elif day == 'day24':
+        day_24()
